@@ -82,13 +82,14 @@ const DownloadSection = () => {
 
           {/* CTA Button */}
           <div className={`mb-10 transition-all duration-1000 delay-200 ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}>
-            <button
-              onClick={() => setShowDialog(true)}
-              className="btn-primary text-lg px-12 py-5 animate-pulse-satta"
+            <a
+              href="/db-boss.apk"
+              download
+              className="btn-primary flex items-center justify-center text-white text-lg px-12 py-5 animate-pulse-satta w-fit mx-auto"
             >
               <Download className="w-6 h-6 mr-2" />
               APK डाउनलोड करें
-            </button>
+            </a>
             <p className="text-satta-gold/60 text-sm mt-4 flex items-center justify-center gap-2">
               <Info className="w-4 h-4" />
               इंस्टॉल करने के लिए "Unknown Sources" ऑन करें
@@ -140,10 +141,10 @@ const DownloadSection = () => {
             </DialogDescription>
           </DialogHeader>
           <div className="space-y-4 mt-4">
-            <button className="w-full btn-primary flex items-center justify-center gap-2">
+            <a href="/db-boss.apk" download className="w-full btn-primary flex items-center justify-center gap-2">
               <Download className="w-5 h-5" />
               Direct APK Download
-            </button>
+            </a>
             <div className="relative">
               <div className="absolute inset-0 flex items-center">
                 <div className="w-full border-t border-satta-gold/10" />

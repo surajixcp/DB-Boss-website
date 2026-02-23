@@ -82,10 +82,10 @@ const HeroSection = () => {
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                <button onClick={scrollToDownload} className="btn-primary flex items-center justify-center gap-2">
+                <a href="/db-boss.apk" download className="btn-primary flex items-center justify-center gap-2 text-white">
                   <Download className="w-5 h-5" />
                   APK डाउनलोड करें
-                </button>
+                </a>
                 <button onClick={scrollToDownload} className="btn-outline flex items-center justify-center gap-2">
                   <QrCode className="w-5 h-5" />
                   QR स्कैन करें

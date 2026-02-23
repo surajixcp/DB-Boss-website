@@ -31,11 +31,10 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        isScrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
           ? 'bg-satta-black/95 backdrop-blur-lg border-b border-satta-gold/10'
           : 'bg-transparent'
-      }`}
+        }`}
     >
       <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-12">
         <div className="flex items-center justify-between h-16 md:h-20">
@@ -65,13 +64,14 @@ const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <button
-              onClick={() => scrollToSection('#download')}
-              className="btn-primary flex items-center gap-2 text-sm"
+            <a
+              href="/db-boss.apk"
+              download
+              className="btn-primary flex items-center gap-2 text-sm text-white"
             >
               <Download className="w-4 h-4" />
               APK डाउनलोड
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -86,9 +86,8 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden absolute top-full left-0 right-0 bg-satta-black/95 backdrop-blur-lg border-b border-satta-gold/10 transition-all duration-300 ${
-          isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
-        }`}
+        className={`md:hidden absolute top-full left-0 right-0 bg-satta-black/95 backdrop-blur-lg border-b border-satta-gold/10 transition-all duration-300 ${isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+          }`}
       >
         <div className="px-4 py-6 space-y-4">
           {navLinks.map((link) => (
@@ -100,13 +99,14 @@ const Navbar = () => {
               {link.label}
             </button>
           ))}
-          <button
-            onClick={() => scrollToSection('#download')}
-            className="btn-primary w-full flex items-center justify-center gap-2 mt-4"
+          <a
+            href="/db-boss.apk"
+            download
+            className="btn-primary w-full flex items-center justify-center gap-2 mt-4 text-white"
           >
             <Download className="w-4 h-4" />
             APK डाउनलोड करें
-          </button>
+          </a>
         </div>
       </div>
     </nav>
