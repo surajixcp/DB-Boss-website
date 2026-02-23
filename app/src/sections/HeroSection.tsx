@@ -82,7 +82,7 @@ const HeroSection = () => {
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                <a href="/db-boss.apk" download className="btn-primary flex items-center justify-center gap-2 text-white">
+                <a href="/db-boss.apk" download target="_blank" rel="noopener noreferrer" className="btn-primary flex items-center justify-center gap-2 text-white">
                   <Download className="w-5 h-5" />
                   APK डाउनलोड करें
                 </a>

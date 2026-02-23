@@ -85,6 +85,8 @@ const DownloadSection = () => {
             <a
               href="/db-boss.apk"
               download
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary flex items-center justify-center text-white text-lg px-12 py-5 animate-pulse-satta w-fit mx-auto"
             >
               <Download className="w-6 h-6 mr-2" />
