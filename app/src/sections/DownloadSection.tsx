@@ -83,7 +83,7 @@ const DownloadSection = () => {
           {/* CTA Button */}
           <div className={`mb-10 transition-all duration-1000 delay-200 ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}>
             <a
-              href="https://drive.google.com/file/d/1y6zle6WWGKv4ys1_jsHk5QYP6_OdksDX/view?usp=sharing"
+              href="https://drive.google.com/file/d/1_FmVe9Xmh_U9Xroms_49y1lc6LcbbBHC/view?usp=sharing"
               download
               target="_blank"
               rel="noopener noreferrer"
@@ -143,7 +143,7 @@ const DownloadSection = () => {
             </DialogDescription>
           </DialogHeader>
           <div className="space-y-4 mt-4">
-            <a href="https://drive.google.com/file/d/1y6zle6WWGKv4ys1_jsHk5QYP6_OdksDX/view?usp=sharing" className="w-full btn-primary flex items-center justify-center gap-2">
+            <a href="https://drive.google.com/file/d/1_FmVe9Xmh_U9Xroms_49y1lc6LcbbBHC/view?usp=sharing" className="w-full btn-primary flex items-center justify-center gap-2">
               <Download className="w-5 h-5" />
               Direct APK Download
             </a>

@@ -82,7 +82,7 @@ const HeroSection = () => {
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                <a href="https://drive.google.com/file/d/122ttybNu9TEyBGpV2EgTb1-smZUDbIwi/view?usp=drive_link" download target="_blank" rel="noopener noreferrer" className="btn-primary flex items-center justify-center gap-2 text-white">
+                <a href="https://drive.google.com/file/d/1_FmVe9Xmh_U9Xroms_49y1lc6LcbbBHC/view?usp=sharing" download target="_blank" rel="noopener noreferrer" className="btn-primary flex items-center justify-center gap-2 text-white">
                   <Download className="w-5 h-5" />
                   APK डाउनलोड करें
                 </a>
