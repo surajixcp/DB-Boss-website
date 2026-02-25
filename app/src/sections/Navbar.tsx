@@ -65,7 +65,7 @@ const Navbar = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <a
-              href="https://drive.google.com/file/d/122ttybNu9TEyBGpV2EgTb1-smZUDbIwi/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1y6zle6WWGKv4ys1_jsHk5QYP6_OdksDX/view?usp=sharing"
               download
               target="_blank"
               rel="noopener noreferrer"
@@ -102,7 +102,7 @@ const Navbar = () => {
             </button>
           ))}
           <a
-            href="https://drive.google.com/file/d/122ttybNu9TEyBGpV2EgTb1-smZUDbIwi/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1y6zle6WWGKv4ys1_jsHk5QYP6_OdksDX/view?usp=sharing"
             download
             target="_blank"
             rel="noopener noreferrer"
